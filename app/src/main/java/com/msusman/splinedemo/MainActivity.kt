@@ -14,7 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.msusman.splinedemo.ui.screen.SplineTestScreen
+import com.msusman.splinedemo.spline.SplineTestScreen2
 import com.msusman.splinedemo.ui.theme.SplineDemoTheme
 
 
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             SplineDemoTheme {
-                SplineTestScreen()
+                SplineTestScreen2()
             }
         }
         checkDeviceCapabilities()
